@@ -49,12 +49,12 @@ def Update_contacts():
             print(f"Address: {contact['Address']}")
             print("----" * 30)
 
-            new_name=input("new_name(please enter new name)")
-            new_family=input("new_family(please enter new family)")
-            new_phone=input("new_phone(please enter new phone)")
-            new_email=input("new_email(please enter new email)")
-            new_city=input("new_city(please enter new city)")
-            new_address=input("new_address(please enter new address)")
+            new_name=input("new_name(please enter new name)").strip()
+            new_family=input("new_family(please enter new family)").strip()
+            new_phone=input("new_phone(please enter new phone)").strip()
+            new_email=input("new_email(please enter new email)").strip()
+            new_city=input("new_city(please enter new city)").strip()
+            new_address=input("new_address(please enter new address)").strip()
             if new_name:
                 contact["Name"]=new_name
             elif new_family:
@@ -68,7 +68,7 @@ def Update_contacts():
             elif new_address:
                 contact["Address"]=new_address
     save_contacts()
-    print(f"update has been succesfully {contact['Name']}")
+    print(f"update has been succesfully{contact['Name']}")
     return
 
 def Delet_contant():
@@ -81,7 +81,7 @@ def Delet_contant():
             deleted_name=contact["Name"]
             contacts.remove(contact)
             save_contacts()
-            print(f"delete {contact['Name']} has been deleted")
+            print(f"delete {deleted_name} has been deleted")
             return
 
         print("not found")

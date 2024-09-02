@@ -8,9 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../project-start/adress_books.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-start/final-statrt.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project-start/final2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adress_books.csv" beforeDir="false" afterPath="$PROJECT_DIR$/adress_books.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <workItem from="1724932886377" duration="5000" />
       <workItem from="1725092187610" duration="3672000" />
       <workItem from="1725180369994" duration="4892000" />
-      <workItem from="1725264098366" duration="6753000" />
+      <workItem from="1725264098366" duration="7337000" />
     </task>
     <servers />
   </component>
